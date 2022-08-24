@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+}
+
+
+body{background:rgb(190, 142, 190);
+color: aliceblue;
+text-align:center;
+font-family: 'Nunito', sans-serif;
+
+    }
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+}
+ 
+h1 strong{
+    color: #99cc00;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    height: inherit;
+}
+.header{
+    background-color: blueviolet;
+    color: rgb(9, 100, 29);
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+.header li{
+    height: inherit;
+}
+
+.header a {
+    color: rgb(255, 247, 238);
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+.logo img{
+    width: 100px;
+}
+.menu{
+    height: inherit;
+}
+.principal{
+    background: rgb(12, 97, 4);
+    background-image: url('https://images5.alphacoders.com/110/1107008.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px;
+}
+.principal img{
+    width: 300px;
+}
+
+.principal-boton{
+    width: 250px;
+    height:40px ;
+    background-color: #99cc00;
+    border-radius: 24px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.somos{
+    background: rgb(121, 57, 99);
+    text-align:center;
+    padding: 50px;
+    font-size: 20px;
+
+
+}
+.somos h2{
+    color: #99cc00;
+    margin-bottom: 10px;
+}
+.somos p{
+    margin-bottom: 20px;
+}
+.somos2{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 25px 50px 200px 100px;
+}
